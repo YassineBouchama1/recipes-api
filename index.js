@@ -274,7 +274,7 @@ app.delete('/api/recipes/:id', rateLimitMiddleware, async (req, res) => {
 
 
 app.get("*", (req, res) => {
-    res.send(`ach biti sir l /api`);
+    res.send(`ach biti sir 9ra readme file`);
 });
 
 // Initialize Data
